@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp15.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            WidthRequest="300"
+            >
+            <Image
+                Source="logostronki.png"
+                HeightRequest="185"
+                HorizontalOptions="Center"
+              />
+
+            <Label
+                Text="Zaloguj się"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Email:"
+                SemanticProperties.HeadingLevel="Level2"
+                FontAttributes="Bold"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <Entry
+                x:Name="emailEntry"
+                Placeholder="Wprowadź swój email"
+                Keyboard="Email" />
+            <Label
+                Text="Hasło:"
+                SemanticProperties.HeadingLevel="Level2"
+                FontAttributes="Bold"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <Entry
+                x:Name="passwordEntry"
+                Placeholder="Wprowadź swoje hasło"
+                IsPassword="True" />
+            <Button
+                Text="Zaloguj się"/>
+            <Label
+                Text="Nie masz konta? Zarejestruj się"
+                TextColor="Blue"
+                TextDecorations="Underline"
+                HorizontalOptions="Center" />
+
+
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
