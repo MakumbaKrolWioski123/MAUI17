@@ -1,0 +1,10 @@
+
+1.Kolumny mają proporcje 1:2, bo zdefiniowano je jako "*,2*".  
+
+2.Nagłówek ma ustawione Grid.ColumnSpan="2", dzięki czemu obejmuje obie kolumny Grida.
+
+3.Prawa kolumna zawiera listę ostatnich aktywności, która może się powiekszac. ScrollView umożliwia przewijanie zawartości bez wpływu na układ pozostałych elementów. Lewa kolumna zawiera krótkie, statyczne informacje, dlatego przewijanie nie jest tam potrzebne.
+
+4.Przyciski znajdują się w HorizontalStackLayout, który układa elementy poziomo w jednym rzędzie.
+
+5.Trzeba dodać ScrollView do lewej kolumny, dodajac doiego Frame albo jego zawartość, aby pozwolic na przewijanie i zapobiec zepsuciu całego układu.
