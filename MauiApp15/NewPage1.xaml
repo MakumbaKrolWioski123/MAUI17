@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp15.NewPage1"
+             Title="MAUI 17.3">
+    <ScrollView Padding="20">
+        <Grid RowDefinitions="500,500" ColumnDefinitions="auto,auto" ColumnSpacing="30" RowSpacing="10">
+            <Border
+                Stroke="Gray"
+                StrokeThickness="4"
+                Grid.Row="0"
+                Grid.Column="0"
+                >
+            <VerticalStackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" WidthRequest="600">
+                <Image
+            Source="logostronki.png"
+            HeightRequest="200"
+        />
+                <Label
+            Text="Japki"
+            FontSize="Large"
+            HorizontalOptions="Center" />
+                <Label
+            Text="Cena za 1szt - 2zł"
+            FontAttributes="Bold"
+            FontSize="Large"
+            TextColor="Green"
+            HorizontalOptions="Center"
+            />
+                <Label
+            Text="Opis: Japki importowane z gór na ktorych mieszkają mistrzowie shaolin."
+            TextColor="Gray"
+            MaxLines="2"
+            FontSize="Small"
+            HorizontalOptions="Center" />
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Label
+                Text="Ocena:"
+                FontSize="Large"/>
+                    <Label
+                Text="★★★★"
+                FontSize="Large"
+                TextColor="Gold"
+                />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                    <Button Text="Dodaj do koszyka"
+                    BackgroundColor="White"
+                            WidthRequest="150"/>
+                    <Button Text="Kup teraz"
+                            WidthRequest="150"
+                    BackgroundColor="ForestGreen"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+            </Border>
+            <Border
+                 Stroke="Gray"
+                 StrokeThickness="4"
+                Grid.Row="0"
+                Grid.Column="1"
+                 >
+                <VerticalStackLayout HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" WidthRequest="600">
+                    <Image
+        Source="logostronki.png"
+        HeightRequest="200"
+    />
+                    <Label
+        Text="Mango"
+        FontSize="Large"
+        HorizontalOptions="Center" />
+                    <Label
+        Text="Cena za 1szt - 3zł"
+        FontAttributes="Bold"
+        FontSize="Large"
+        TextColor="Green"
+        HorizontalOptions="Center"
+        />
+                    <Label
+        Text="Opis: Mango importowane z lasów Orleanu."
+        TextColor="Gray"
+        MaxLines="2"
+        FontSize="Small"
+        HorizontalOptions="Center" />
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label
+            Text="Ocena:"
+            FontSize="Large"/>
+                        <Label
+            Text="★★★★★"
+            FontSize="Large"
+            TextColor="Gold"
+            />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                        <Button Text="Dodaj do koszyka"
+                BackgroundColor="White"
+                            WidthRequest="150"/>
+                        <Button Text="Kup teraz"
+                            WidthRequest="150"
+                BackgroundColor="ForestGreen"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+            <Border
+                 Stroke="Gray"
+                 StrokeThickness="4"
+                 Grid.Row="1"
+                 Grid.Column="0"
+                  >
+                <VerticalStackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" WidthRequest="600">
+                    <Image
+        Source="logostronki.png"
+        HeightRequest="200"
+    />
+                    <Label
+        Text="Musztarda"
+        FontSize="Large"
+        HorizontalOptions="Center" />
+                    <Label
+        Text="Cena za 1szt - 1zł"
+        FontAttributes="Bold"
+        FontSize="Large"
+        TextColor="Green"
+        HorizontalOptions="Center"
+        />
+                    <Label
+        Text="Opis: Musztarda swojskiej roboty."
+        TextColor="Gray"
+        MaxLines="2"
+        FontSize="Small"
+        HorizontalOptions="Center" />
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label
+            Text="Ocena:"
+            FontSize="Large"/>
+                        <Label
+            Text="★★"
+            FontSize="Large"
+            TextColor="Gold"
+            />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                        <Button Text="Dodaj do koszyka"
+                BackgroundColor="White"
+                            WidthRequest="150"/>
+                        <Button Text="Kup teraz"
+                            WidthRequest="150"
+                BackgroundColor="ForestGreen"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+            <VerticalStackLayout HorizontalOptions="Center" Grid.Column="1" Grid.Row="1" WidthRequest="600">
+                <Image
+        Source="logostronki.png"
+        HeightRequest="200"
+    />
+                <Label
+        Text="Łoscypki"
+        FontSize="Large"
+        HorizontalOptions="Center" />
+                <Label
+        Text="Cena za 1szt - 2zł"
+        FontAttributes="Bold"
+        FontSize="Large"
+        TextColor="Green"
+        HorizontalOptions="Center"
+        />
+                <Label
+        Text="Opis: Łoscypki robione przez góralów."
+        TextColor="Gray"
+        MaxLines="2"
+        FontSize="Small"
+        HorizontalOptions="Center" />
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Label
+            Text="Ocena:"
+            FontSize="Large"/>
+                    <Label
+            Text="★★★★"
+            FontSize="Large"
+            TextColor="Gold"
+            />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                    <Button Text="Dodaj do koszyka"
+                BackgroundColor="White"
+                            WidthRequest="150"/>
+                    <Button Text="Kup teraz"
+                            WidthRequest="150"
+                BackgroundColor="ForestGreen"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>
