@@ -11,47 +11,47 @@
                 Grid.Row="0"
                 Grid.Column="0"
                 >
-            <VerticalStackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" WidthRequest="600">
-                <Image
+                <VerticalStackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" WidthRequest="600">
+                    <Image
             Source="logostronki.png"
             HeightRequest="200"
         />
-                <Label
+                    <Label
             Text="Japki"
             FontSize="Large"
             HorizontalOptions="Center" />
-                <Label
+                    <Label
             Text="Cena za 1szt - 2zł"
             FontAttributes="Bold"
             FontSize="Large"
             TextColor="Green"
             HorizontalOptions="Center"
             />
-                <Label
+                    <Label
             Text="Opis: Japki importowane z gór na ktorych mieszkają mistrzowie shaolin."
             TextColor="Gray"
             MaxLines="2"
             FontSize="Small"
             HorizontalOptions="Center" />
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Label
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label
                 Text="Ocena:"
                 FontSize="Large"/>
-                    <Label
+                        <Label
                 Text="★★★★"
                 FontSize="Large"
                 TextColor="Gold"
                 />
-                </HorizontalStackLayout>
-                <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
-                    <Button Text="Dodaj do koszyka"
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                        <Button Text="Dodaj do koszyka"
                     BackgroundColor="White"
                             WidthRequest="150"/>
-                    <Button Text="Kup teraz"
+                        <Button Text="Kup teraz"
                             WidthRequest="150"
                     BackgroundColor="ForestGreen"/>
-                </HorizontalStackLayout>
-            </VerticalStackLayout>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
             </Border>
             <Border
                  Stroke="Gray"
@@ -149,47 +149,54 @@
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
             </Border>
-            <VerticalStackLayout HorizontalOptions="Center" Grid.Column="1" Grid.Row="1" WidthRequest="600">
-                <Image
+            <Border
+                 Stroke="Gray"
+                 StrokeThickness="4"
+                 Grid.Row="1"
+                 Grid.Column="1"
+                 >
+                <VerticalStackLayout HorizontalOptions="Center" Grid.Column="1" Grid.Row="1" WidthRequest="600">
+                    <Image
         Source="logostronki.png"
         HeightRequest="200"
     />
-                <Label
+                    <Label
         Text="Łoscypki"
         FontSize="Large"
         HorizontalOptions="Center" />
-                <Label
+                    <Label
         Text="Cena za 1szt - 2zł"
         FontAttributes="Bold"
         FontSize="Large"
         TextColor="Green"
         HorizontalOptions="Center"
         />
-                <Label
+                    <Label
         Text="Opis: Łoscypki robione przez góralów."
         TextColor="Gray"
         MaxLines="2"
         FontSize="Small"
         HorizontalOptions="Center" />
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Label
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label
             Text="Ocena:"
             FontSize="Large"/>
-                    <Label
+                        <Label
             Text="★★★★"
             FontSize="Large"
             TextColor="Gold"
             />
-                </HorizontalStackLayout>
-                <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
-                    <Button Text="Dodaj do koszyka"
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                        <Button Text="Dodaj do koszyka"
                 BackgroundColor="White"
                             WidthRequest="150"/>
-                    <Button Text="Kup teraz"
+                        <Button Text="Kup teraz"
                             WidthRequest="150"
                 BackgroundColor="ForestGreen"/>
-                </HorizontalStackLayout>
-            </VerticalStackLayout>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
         </Grid>
     </ScrollView>
 </ContentPage>
