@@ -3,16 +3,59 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp15.NewPage2"
              Title="MAUI 17.4">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="10">
         <Label 
             Text="Moja galeria"
+            FontSize="Header"
+            FontAttributes="Bold"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Button
             Text="Dodaj zdjęcie"/>
-        <FlexLayout>
-            
-            
+        <FlexLayout Direction="Row" JustifyContent="SpaceEvenly" Wrap="Wrap">
+            <BoxView Color="DarkRed" WidthRequest="100" HeightRequest="100">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnBoxViewTapped"/>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <BoxView Color="DarkCyan" WidthRequest="100" HeightRequest="100">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnBoxViewTapped"/>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+
+
         </FlexLayout>
     </VerticalStackLayout>
 </ContentPage>
