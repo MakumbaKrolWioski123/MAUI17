@@ -45,7 +45,7 @@
                     </HorizontalStackLayout>
                     <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
                         <Button Text="Dodaj do koszyka"
-                    BackgroundColor="White"
+                    BackgroundColor="DarkCyan"
                             WidthRequest="150"/>
                         <Button Text="Kup teraz"
                             WidthRequest="150"
@@ -93,7 +93,7 @@
                     </HorizontalStackLayout>
                     <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
                         <Button Text="Dodaj do koszyka"
-                BackgroundColor="White"
+                BackgroundColor="DarkCyan"
                             WidthRequest="150"/>
                         <Button Text="Kup teraz"
                             WidthRequest="150"
@@ -141,7 +141,7 @@
                     </HorizontalStackLayout>
                     <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
                         <Button Text="Dodaj do koszyka"
-                BackgroundColor="White"
+                BackgroundColor="DarkCyan"
                             WidthRequest="150"/>
                         <Button Text="Kup teraz"
                             WidthRequest="150"
@@ -189,7 +189,7 @@
                     </HorizontalStackLayout>
                     <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
                         <Button Text="Dodaj do koszyka"
-                BackgroundColor="White"
+                BackgroundColor="DarkCyan"
                             WidthRequest="150"/>
                         <Button Text="Kup teraz"
                             WidthRequest="150"
