@@ -11,51 +11,74 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Button
-            Text="Dodaj zdjęcie"/>
-        <FlexLayout Direction="Row" JustifyContent="SpaceEvenly" Wrap="Wrap">
-            <BoxView Color="DarkRed" WidthRequest="100" HeightRequest="100">
-                <BoxView.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnBoxViewTapped"/>
-                </BoxView.GestureRecognizers>
-            </BoxView>
-            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnImageTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnImageTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnImageTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-            <BoxView Color="DarkCyan" WidthRequest="100" HeightRequest="100">
-                <BoxView.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnBoxViewTapped"/>
-                </BoxView.GestureRecognizers>
-            </BoxView>
-            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnImageTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnImageTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-            <Image Source="logostronki.png" WidthRequest="100" HeightRequest="100">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnImageTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-
-
+            Text="Dodaj zdjęcie"
+            WidthRequest="200"/>
+        <FlexLayout Direction="Row" JustifyContent="SpaceEvenly" Wrap="Wrap" x:Name="GaleriaFlex">
+            <Grid WidthRequest="100" HeightRequest="100">
+                <BoxView Color="DarkOrange" WidthRequest="100" HeightRequest="100" />
+                <Image Source="logostronki.png" WidthRequest="90" HeightRequest="90">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+            <Grid WidthRequest="100" HeightRequest="100">
+                <BoxView Color="DarkCyan" WidthRequest="100" HeightRequest="100" />
+                <Image Source="logostronki.png" WidthRequest="90" HeightRequest="90">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+            <Grid WidthRequest="100" HeightRequest="100">
+                <BoxView Color="DarkRed" WidthRequest="100" HeightRequest="100" />
+                <Image Source="logostronki.png" WidthRequest="90" HeightRequest="90">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+            <Grid WidthRequest="100" HeightRequest="100">
+                <BoxView Color="DarkGreen" WidthRequest="100" HeightRequest="100" />
+                <Image Source="logostronki.png" WidthRequest="90" HeightRequest="90">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+            <Grid WidthRequest="100" HeightRequest="100">
+                <BoxView Color="Purple" WidthRequest="100" HeightRequest="100" />
+                <Image Source="logostronki.png" WidthRequest="90" HeightRequest="90">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+            <Grid WidthRequest="100" HeightRequest="100">
+                <BoxView Color="Yellow" WidthRequest="100" HeightRequest="100" />
+                <Image Source="logostronki.png" WidthRequest="90" HeightRequest="90">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
 
         </FlexLayout>
+        <Label 
+            x:Name="infoLabel"
+            Text="Liczba zdjęć:"
+            FontSize="Large"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+            <Button
+                Text="Poprzednia strona"
+                WidthRequest="150"/>
+            <Button
+                Text="Następna strona"
+                WidthRequest="150"/>
+        </HorizontalStackLayout>
+        
     </VerticalStackLayout>
 </ContentPage>
